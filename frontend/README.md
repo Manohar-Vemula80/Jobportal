@@ -1,12 +1,40 @@
-# React + Vite
+# Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack job portal application that allows users to register, log in, and apply for jobs. Recruiters can post jobs and manage applicants. The project is built using React for the frontend and Node.js with Express for the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### User Features
+- **Sign Up**: Users can register as either a student or a recruiter.
+- **Login**: Users can log in with their email, password, and role.
+- **Profile Management**: Users can update their profile, including uploading resumes and adding skills.
+- **Job Search**: Students can browse and apply for jobs.
+- **Application Tracking**: Students can view the jobs they have applied for.
 
-## Expanding the ESLint configuration
+### Recruiter Features
+- **Post Jobs**: Recruiters can create job postings.
+- **Manage Jobs**: Recruiters can view and manage the jobs they have posted.
+- **View Applicants**: Recruiters can see the list of applicants for their jobs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin Features
+- **Company Management**: Admins can create and update company profiles.
+
+## Tech Stack
+
+### Frontend
+- **React**: For building the user interface.
+- **Redux Toolkit**: For state management.
+- **React Router**: For navigation.
+- **Tailwind CSS**: For styling.
+- **Sonner**: For toast notifications.
+
+### Backend
+- **Node.js**: For the server-side runtime.
+- **Express**: For building the REST API.
+- **MongoDB**: For the database.
+- **Mongoose**: For MongoDB object modeling.
+- **Cloudinary**: For file uploads (e.g., resumes and company logos).
+
+## Project Structure
+
+### Frontend
